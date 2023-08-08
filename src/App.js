@@ -128,34 +128,6 @@ function App() {
             onChange={handleChange}
           />
         </label>
-        <label>
-          Humedad de la Tierra:
-          <input
-            type="number"
-            name="humedadTierra"
-            step="0.01"
-            value={formData.humedadTierra}
-            onChange={handleChange}
-          />
-        </label>
-        <label>
-          Temperatura Promedio:
-          <input
-            type="number"
-            name="temperaturaPromedio"
-            value={formData.temperaturaPromedio}
-            onChange={handleChange}
-          />
-        </label>
-        <label>
-          Precipitación en la Zona:
-          <input
-            type="number"
-            name="precipitacionZona"
-            value={formData.precipitacionZona}
-            onChange={handleChange}
-          />
-        </label>
         <button type="submit">Registrar</button>
       </form>
       <ToastContainer />
